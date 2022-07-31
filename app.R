@@ -21,9 +21,8 @@ library(shiny)
 library(shinydashboard)
 library(tidymodels)
 library(tidyverse)
-library(dash)
 
-model <- readRDS("data/model.rds")
+model <- readRDS("model.rds")
 
 ui <- dashboardPage(
     dashboardHeader(title = "Functional Impairment Risk Calculator"),
